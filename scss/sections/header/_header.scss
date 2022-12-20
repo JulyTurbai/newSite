@@ -1,0 +1,25 @@
+.header {
+    background: white;
+}
+.header-block {
+    padding: 20px 0;
+}
+.menu {
+    @include flex (flex-end,center,center);
+    
+    &__item {
+        margin-right: 40px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__link {
+        color: black
+    }
+    .main {
+        color: #f6ae48;
+    }
+}
+a {
+    text-decoration: none;
+}
