@@ -1,4 +1,10 @@
+@import "./var";
 @import "./mixin";
 @import "./common";
 @import "./sections/hero/hero";
 @import "./sections/header/header";
+@import "./media";
+@import "./sections/hero/hero-media";
+@import "./sections/header/header-media";
+@import "./sections/studio/studio";
+@import "./sections/studio/studio-media";

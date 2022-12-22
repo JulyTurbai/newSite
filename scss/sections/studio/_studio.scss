@@ -1,0 +1,109 @@
+.studio-block {
+    height: 1120px;
+    padding-bottom: 130px;
+}
+.studio-content {
+    @include flex (space-between, center, center);
+    height: 525px;
+    padding-right: 80px;
+    
+    
+    .title_h2 {
+        color: black;
+        font-size: 48px;
+        
+    }
+    &__descr {
+        max-width: 845px;
+        position: relative;
+        z-index: 10000;
+        font-size: 20px;
+    }
+    &__we {
+        position: absolute;
+        font-size: 340px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-left: 13%;
+        color: #f4f4f4;
+        
+    }
+}
+.studio-topics {
+    @include flex (space-between, center, center);
+    .topic {
+        max-width: 400px;
+        &__start {
+            .topic-icon {
+                width: 30px;
+                height: 60px;
+                margin-bottom: 16px;
+                margin-top: 15px;
+            }
+        }
+        &__move {
+            .topic-icon {
+                width: 30px;
+                height: 45px;
+                margin-bottom: 32px;
+                margin-top: 15px;
+                margin-right: 10px;
+            }
+        }
+        &__support {
+            background: #f6ae48;
+            padding: 15px 20px;
+            color: white;
+            .topic-icon {
+                width: 55px;
+                height: 45px;
+                margin-bottom: 30px;
+                
+            }
+        } 
+        
+        &-name {
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        &-descr {
+            font-size: 14px;
+            line-height: 20px;
+     
+        }
+        
+    }
+}
+.little {
+        @include flex (space-between, center, center);
+        border: 2px solid #303263;
+        width: 300px;
+        height: 80px;
+        padding: 20px;
+        display: none;
+    .img {
+        width: 55px;
+        height: 45px;
+    }
+}
+
+.topic-function {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 30px;
+   &__arrow {
+    width: 22px;
+    height: 23px;
+   }
+}
+.topic-button {
+    @include flex;
+    width: 130px;
+    height: 35px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    
+}

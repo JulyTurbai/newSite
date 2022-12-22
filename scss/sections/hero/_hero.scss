@@ -9,9 +9,7 @@
 
 }
 .hero-block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
     height: 810px;
     padding: 75px 70px 0;
 }

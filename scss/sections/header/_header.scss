@@ -2,11 +2,31 @@
     background: white;
 }
 .header-block {
+    @include flex (flex-end,center,center);
     padding: 20px 0;
+    height: 100px
+    
+}
+.menu-block {
+    display: flex;
+    align-items: center;
+    display: none;
+    &__main {
+        color: #f6ae48;
+        margin-right: 30px;
+        
+    }
+    &__toggle {
+        @include flex;
+        width: 150px;
+        height: 40px;
+        background: #303263;
+        color: white; 
+       
+    }
 }
 .menu {
     @include flex (flex-end,center,center);
-    
     &__item {
         margin-right: 40px;
         &:last-child {
@@ -22,4 +42,8 @@
 }
 a {
     text-decoration: none;
+}
+.line {
+    width: 100%;
+    border: 2px solid #adadad;
 }

@@ -1,0 +1,24 @@
+@media (max-width: $headerBP1) {
+    .header-block {
+        padding-right: 30px;
+    }
+}
+@media (max-width: $headerBP2) {
+    .menu {
+       &__item {
+            margin-right: 25px;
+        }
+    }
+}
+@media (max-width: $headerBP3) {
+    .menu {
+        display: none;
+        
+    }
+}
+@media (max-width: $headerBP3) {
+    .menu-block {
+        display: initial;
+        display: flex;
+    }
+}
