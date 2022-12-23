@@ -30,9 +30,12 @@
     }
 }
 .studio-topics {
-    @include flex (space-between, center, center);
+    @include flex (space-between, flex-start, center);
     .topic {
         max-width: 400px;
+        padding-bottom: 70px;
+        align-items: flex-start;
+       
         &__start {
             .topic-icon {
                 width: 30px;
@@ -48,6 +51,8 @@
                 margin-bottom: 32px;
                 margin-top: 15px;
                 margin-right: 10px;
+                
+                
             }
         }
         &__support {
