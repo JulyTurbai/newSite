@@ -411,6 +411,46 @@ a {
   color: #f4f4f4;
 }
 
+.studio-topics__little {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: none;
+}
+
+.topic-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 250px;
+  height: 80px;
+  border: 2px solid #2d2f52;
+  margin-bottom: 30px;
+}
+.topic-actions__name {
+  margin-right: 10px;
+}
+
 .studio-topics {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -447,7 +487,6 @@ a {
   margin-right: 10px;
 }
 .studio-topics .topic__support {
-  background: #f6ae48;
   padding: 15px 20px;
   color: white;
 }
@@ -544,6 +583,7 @@ a {
             flex-direction: column;
     padding-right: 0;
     height: 350px;
+    padding: 0;
   }
   .studio-content__we {
     font-size: 200px;
@@ -552,11 +592,11 @@ a {
   }
 }
 @media (max-width: 1370px) {
-  .title_h2 {
+  .studio-content .title_h2 {
     margin-bottom: 50px;
   }
 }
-@media (max-width: 1300px) {
+@media (max-width: 1370px) {
   .studio-topics {
     padding: 0 20px;
     display: -webkit-box;
@@ -568,50 +608,101 @@ a {
         justify-content: space-around;
   }
 }
-@media (max-width: 1300px) {
-  .topic {
+@media (max-width: 900px) {
+  .topic__start {
+    height: initial;
+  }
+  .topic__move {
+    height: initial;
+  }
+}
+@media (max-width: 400px) {
+  .studio-content .title_h2 {
+    font-size: 25px;
     margin-bottom: 20px;
   }
 }
-@media (max-width: 420px) {
-  .studio-content__we {
-    display: none;
-  }
-  .studio-content__descr {
-    font-size: 16px;
-  }
-}
-@media (max-width: 420px) {
-  .topic {
+@media (max-width: 900px) {
+  .studio-topics__little {
+    display: initial;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 300px;
-  }
-  .topic-descr {
-    line-height: 17px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 30px 0;
   }
 }
-@media (max-width: 420px) {
-  .studio-content .title_h2 {
-    font-size: 30px;
+@media (max-width: 500px) {
+  .studio-content {
+    margin-top: 30px;
+  }
+  .studio-content__we {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .studio-content__descr {
     margin-bottom: 20px;
   }
 }
-@media (max-width: 420px) {
-  .topic__support {
-    height: 450px;
+@media (max-width: 370px) {
+  .studio-content {
+    height: initial;
+  }
+  .studio-content .title_h2 {
+    font-size: 16px;
+  }
+  .studio-content__descr {
+    font-size: 15px;
   }
 }
-@media (max-width: 420px) {
-  .topic {
-    margin-bottom: 50px;
-  }
+.credo {
+  background-image: linear-gradient(42deg, rgba(48, 50, 99, 0.67) 0%, rgb(48, 50, 99) 100%), url(../img/kredo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.credo-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 75px 70px 0;
+  height: 565px;
+}
+.credo-block .credo-content__title {
+  margin-bottom: 25px;
+}
+.credo-block .credo-content__descr {
+  text-align: center;
+  margin-bottom: 55px;
+  color: white;
+  line-height: 36px;
+  max-width: 1045px;
+}
+
+.settings {
+  top: 0;
+  max-width: 666px;
+  height: 527px;
+  background-image: url(../img/settings.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.settings__name {
+  font-size: 50px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

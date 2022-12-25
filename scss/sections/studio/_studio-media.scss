@@ -6,6 +6,7 @@
         flex-direction: column;
         padding-right: 0;
         height: 350px;
+        padding: 0;
        &__we {
         font-size: 200px;
         margin-top: 100px;
@@ -14,13 +15,15 @@
        }
     }
 }
-@media (max-width: $studioBP1) {
-    .title_h2 {
-        margin-bottom: 50px;
+@media (max-width:$studioBP1){
+    .studio-content {
+        .title_h2 {
+            margin-bottom: 50px;
+        }
     }
 }
-@media (max-width: $studioBP2) {
-    .studio-topics{
+@media (max-width:$studioBP1){
+    .studio-topics {
         padding: 0 20px;
         display: flex;
         flex-wrap: wrap;
@@ -28,56 +31,54 @@
     }
 }
 @media (max-width: $studioBP2) {
-    .topic{
-       margin-bottom: 20px;
-    }
-}
-@media (max-width: $studioBP3) {
-    .studio-content {
-        &__we {
-       display: none;
-       }
-    &__descr {
-        font-size: 16px;
-    }
-    }
-}
-@media (max-width: $studioBP3) {
     .topic {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        height: 300px;
-        
-        &-descr {
-            line-height: 17px;
+        &__start {
+            height: initial;
+        }
+        &__move {
+            height: initial;
         }
     }
 }
-@media (max-width: $studioBP3) {
+@media (max-width:$studioBP4){
     .studio-content {
         .title_h2 {
-            font-size: 30px;
+            font-size: 25px;
             margin-bottom: 20px;
         }
     }
-    
 }
-@media (max-width: $studioBP3) {
-    .topic__support {
-        height: 450px;
+@media (max-width: $studioBP2) {
+    .studio-topics__little {
+        display: initial;
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
     }
 }
-
 @media (max-width: $studioBP3) {
-    .topic{
-        margin-bottom: 50px;
-     }
+    .studio-content {
+        margin-top: 30px;
+        &__we {
+            display: none;
+        }
+    }
 }
-
-
-
-
-    
-
+@media (max-width: $studioBP4) {
+    .studio-content {
+       &__descr {
+        margin-bottom: 20px;
+       }
+    }
+}
+@media (max-width:$studioBP5){
+    .studio-content {
+        height: initial;
+        .title_h2 {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+    }   
+}

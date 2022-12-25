@@ -29,6 +29,20 @@
         
     }
 }
+.studio-topics__little {
+    @include flex (center, center, column);
+    display: none;
+}
+.topic-actions {
+    @include flex;
+    width: 250px;
+    height: 80px;
+    border: 2px solid #2d2f52;
+    margin-bottom: 30px;
+    &__name {
+        margin-right: 10px
+    }
+}
 .studio-topics {
     @include flex (space-between, flex-start, center);
     .topic {
@@ -56,7 +70,6 @@
             }
         }
         &__support {
-            background: #f6ae48;
             padding: 15px 20px;
             color: white;
             .topic-icon {
