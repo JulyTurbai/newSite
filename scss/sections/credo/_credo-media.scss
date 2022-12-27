@@ -1,0 +1,28 @@
+@media (max-width: $credoBP1) {
+    .credo-block {
+        padding: 26px 70px 0;
+    }
+}
+@media (max-width: $credoBP1) {
+    .credo-content {
+        .title_h1 {
+            line-height: 55px;
+        }
+    }
+}
+@media (max-width: $credoBP2) {
+    .credo-block {
+        height: initial;
+    }
+}
+
+@media (max-width: $credoBP3) {
+    .credo-content {
+        .title_h1 {
+            line-height: 50px;
+        }
+        .credo-content__descr {
+            line-height: 25px;
+        }
+    }
+}

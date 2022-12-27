@@ -7,13 +7,14 @@
         background-position: center top;
         
         
+        
     
 }
 .credo-block {
     @include flex (center, center, column);
     padding: 75px 70px 0;
     height: 565px;
-
+    
     
     .credo-content {
         &__title {
@@ -29,17 +30,4 @@
         }
     }
 }
-.settings {
-    
-    top: 0;
-    max-width: 666px;
-    height: 527px;
-    background-image: url(../img/settings.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    &__name {
-        font-size: 50px;
-        color: white;
-    }
-}
+

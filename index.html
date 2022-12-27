@@ -66,7 +66,7 @@
                     <h2 class="studio-content__title title title_h2">
                         Студия
                     </h2>
-                    <p class="studio-content_we">We</p>
+                    <p class="studio-content__we">We</p>
                     <p class="studio-content__descr">
                         Основная специализация — проектирование сайов и landing page. 
                         Наша команда, состоящая из дизайнеров, маркетологов и программистов, 
@@ -75,12 +75,11 @@
                         скорости работы продукта, предоставляет услуги по продвижению сайтов.
                     </p>
                 </div>
-                
-               <div class="studio-topics">
+                <div class="studio-topics">
                     <div class="topic topic_start">
-                        <img class="topic-icon" src="img/icons/topic-icon1.png">
-                        <p class="topic-name">Старт</p>
-                        <p class="topic-descr">
+                        <img class="topic_start__icon" src="img/icons/topic-icon1.png">
+                        <p class="topic_start__name">Старт</p>
+                        <p class="topic_start__descr">
                             Вы хотите получать больше клиентов 
                             и прибыли из интернета?С нуля разработаем 
                             сайт любой сложности,учитывая индивидуальные
@@ -89,11 +88,15 @@
                             и рассчитывается исходя из пожеланий и 
                             требований клиента
                         </p>
+                        <div class="topic-function">
+                            <button class="topic-function__button">от 1000 грн</button>
+                            <img class="topic-function__arrow" src="img/icons/Right arrow.png" alt="">
+                        </div>
                     </div>
-                    <div class="topic topic__move">
-                        <img class="topic-icon" src="img/icons/topic-icon2.png">
-                        <p class="topic-name">Продвижение</p>
-                        <p class="topic-descr">
+                    <div class="topic topic_move">
+                        <img class="topic_move__icon" src="img/icons/topic-icon2.png">
+                        <p class="topic_move__name">Продвижение</p>
+                        <p class="topic_move__descr">
                             Одним из важнейших этапов продвижения 
                             сайта является поисковая оптимизация (SEO), 
                             которая представляет собой комплекс мер по 
@@ -101,11 +104,15 @@
                             системах, и, таким образом, позволяет 
                             увеличить его целевую посещаемость.
                         </p>
+                        <div class="topic-function">
+                            <button class="topic-function__button">от 1000 грн</button>
+                            <img class="topic-function__arrow" src="img/icons/Right arrow.png" alt="">
+                        </div>
                     </div>
-                    <div class="topic topic__support">
-                        <img class="topic-icon" src="img/icons/topic-icon3.png">
-                        <p class="topic-name">Поддержка</p>
-                        <p class="topic-descr">
+                    <div class="topic topic_support">
+                        <img class="topic_support__icon" src="img/icons/topic-icon3.png">
+                        <p class="topic_support__name">Поддержка</p>
+                        <p class="topic_support__descr">
                             У Вас уже работающий бизнес и Вы 
                             регулярно нуждаетесь в услугах веб-студии
                             но брать сотрудника в штат и оборудовать 
@@ -114,7 +121,7 @@
                             предоставлять нужные услуги  удаленно.
                         </p>
                         <div class="topic-function">
-                            <button class="topic-button">от 1000 грн</button>
+                            <button class="topic-function__button">от 1000 грн</button>
                             <img class="topic-function__arrow" src="img/icons/Right arrow.png" alt="">
                         </div>
                     </div>
@@ -140,33 +147,38 @@
             </div>
         </div>
     </div>
-     
-   <div class="services">
-        <div class="service__landing">
-            <p class="service__name">Landing page</p>
-            <div class="service-actions">
-                <button class="service__button">от 15000 грн</button>
-                <img class="service__arrow" src="img/blue-arrow.png">
-            </div>    
-        </div><div class="service__veb">
-            <p class="service__name">Веб-сайт</p>
-            <div class="service-actions">
-                <button class="service__button">от 10000 грн</button>
-                <img class="service__arrow" src="img/icons/Right arrow.png">
-            </div>    
+    <div class="services">
+        <div class="container">
+            <div class="services-block ">
+                <div class="landing-block service-page">
+                    <p class="landing-block__name">Landing page</p>
+                    <hr class="landing-block__line">
+                    <div class="service-actions">
+                        <button class="service-actions__button">от 15000 грн</button>
+                        <img class="service-actions__arrow" src="img/blue-arrow.png">
+                    </div>    
+                </div>
+                <div class="veb-block service-page">
+                    <p class="veb-block__name">Веб-сайт</p>
+                    <hr class="veb-block__line">
+                    <div class="service-actions">
+                        <button class="service-actions__button">от 10000 грн</button>
+                        <img class="service-actions__arrow" src="img/icons/Right arrow.png">
+                    </div>    
+                </div>
+                <div class="shop-block service-page">
+                    <p class="service-shop__name">Интернет магазин</p>
+                    <hr class="shop-block__line">
+                    <div class="service-actions">
+                        <button class="service-actions__button">от 20000 грн</button>
+                        <img class="service-actions__arrow" src="img/icons/Right arrow.png">
+                    </div>    
+                </div>
+            </div>
         </div>
-        <div class="service__landing">
-            <p class="service__name">Интернет магазин</p>
-            <div class="service-actions">
-                <button class="service__button">от 20000 грн</button>
-                <img class="service__arrow" src="img/icons/Right arrow.png">
-            </div>    
+         <div class="settings">
+            <h1 class="settings__title title title_h1">Разработка</h1>
         </div>
     </div>
-    
-                    
-            
-        
-    
 </body>
 </html>
