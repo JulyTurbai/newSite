@@ -11,7 +11,7 @@
     
 }
 .credo-block {
-    @include flex (center, center, column);
+    @include flex;
     padding: 75px 70px 0;
     height: 565px;
     

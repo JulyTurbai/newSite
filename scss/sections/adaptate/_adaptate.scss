@@ -1,0 +1,62 @@
+.adaptate-header {
+    @include flex;
+    background: #303263;
+    padding: 25px 0 25px;
+}
+.adaptate-more {
+    @include flex;
+    width: 240px;
+    height: 65px;
+    background: #6a6b8e;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.adaptate-content {
+    display: flex;
+    align-items: center;
+    padding: 205px 0 170px 0px;
+}
+.adaptate-block {
+    display: flex;
+    align-items: flex-end;
+}
+.adaptate-about {
+    max-width: 550px;
+    position: relative;
+    .title_h2 {
+        color: black;
+        margin-bottom: 30px;
+        text-align: start;
+        z-index: 20000;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    &__back {
+        font-size: 78px;
+        text-transform: uppercase;
+        color: #cfcfcf;
+        font-weight: bold;
+        position: absolute;
+        bottom: 83%;
+        left: -13%;
+        z-index: -1;
+    }
+    &__descr {
+        font-size: 23px;
+        line-height: 48px;
+    }
+
+}
+.image-block {
+    @include flex (center, flex-end, center);
+    max-width: 660px;
+    &__iphone {
+        margin-right: 55px;
+    }
+    &__ipad {
+       margin-right: 25px;
+    }
+}
