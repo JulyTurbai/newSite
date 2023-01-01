@@ -1,0 +1,116 @@
+@media (max-width:$partnersBP1) {
+    .partners-block {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 90px 90px 111px 75px;
+    }
+}
+@media (max-width: $partnersBP1) {
+    .sertificates {
+        display: flex;
+        margin-top: 50px;
+        &__partner {
+            margin-right: 50px;
+        }
+    }
+}
+@media (max-width: $partnersBP1) {
+    .the-first {
+        &__back {
+            bottom: 82%;
+            left: 17%;
+        }
+    }
+}
+@media (max-width: $partnersBP2) {
+    .the-first {
+        &__back {
+            bottom: 82%;
+            left: 10%;
+            font-size: 70px;
+        }
+    }
+}
+@media (max-width: $partnersBP3) {
+    .partners-block {
+        padding: 35px 38px 111px 38px;
+    }
+}
+@media (max-width: $partnersBP3) {
+    .the-first {
+        &__back {
+            bottom: 87%;
+            left: 5%;
+            font-size: 70px;
+        }
+        &__descr {
+            line-height: 37px;
+        }
+        
+    }
+}
+@media (max-width: $partnersBP4) {
+    .the-first {
+        &__back {
+           font-size: 60px;
+           bottom: 91%;
+        }
+    }
+}
+@media (max-width: $partnersBP4) {
+    .sertificates {
+        flex-wrap: wrap;
+        flex-direction: column;
+        &__partner {
+            margin-right: 0;
+        }
+    }
+}
+@media (max-width: $partnersBP5) {
+    .the-first {
+        .title_h2 {
+            font-size: 30px;
+        }
+        &__back {
+            font-size: 50px;
+            bottom: 92%;
+        }
+    &__descr {
+        line-height: 31px;
+        }
+    }
+}
+@media (max-width: $partnersBP6) {
+    .the-first {
+        .title_h2 {
+            font-size: 27px;
+        }
+        &__back {
+            font-size: 40px;
+            bottom: 93%;
+        }
+    &__descr {
+        line-height: 31px;
+        }
+    }
+}
+@media (max-width: $partnersBP7) {
+    .the-first {
+        .title_h2 {
+            font-size: 20px;
+        }
+        &__back {
+            font-size: 35px;
+            bottom: 97%;
+            left: 2%;
+        }
+        &__descr {
+            line-height: 25px;
+            }
+        }
+}
+@media (max-width:$partnersBP7) {
+    .partners-block {
+        padding: 0px 10px 111px 10px;
+    }
+}

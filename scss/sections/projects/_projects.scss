@@ -1,0 +1,59 @@
+
+.projects-header   {
+    @include flex;
+    max-width: 100%;
+    background: #303263;
+    text-transform: uppercase;
+    position: relative;
+    height: 120px;
+    z-index: -1;
+    .title_h1 {
+        font-size: 36px;
+        z-index: 7000;
+    }
+    &__back {
+        font-size: 96px;
+        color: #777898;
+        font-weight: bold;
+        position: absolute;
+        bottom:3%;
+        left: 31%;
+        z-index: -1;
+    }
+}
+
+.projects-photo {
+    &__img1 {
+        width: 100%;
+        
+        
+       }
+    &__img2 {
+        width: 100%;
+        
+     }  
+     &__img3 {
+        width: 100%;
+        
+     }  
+     &__img4 {
+        width: 100%;
+        
+     }  
+     &__img5 {
+        width: 100%;
+        
+     }  
+     &__img6 {
+        width: 100%;
+        
+     }  
+    .block1 {
+        display: flex;
+        width: 100%;
+    }
+    .block2 {
+        display: flex;
+        width: 100%;
+    }
+}
