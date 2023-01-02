@@ -642,7 +642,7 @@ a {
   background-size: cover;
   background-position: center top;
   position: absolute;
-  margin-top: -35%;
+  margin-top: -31%;
 }
 .settings .title_h1 {
   font-size: 50px;
@@ -1539,5 +1539,273 @@ a {
   }
   .adaptate-about__descr {
     line-height: 21px;
+  }
+}
+.trade-in {
+  background-image: url(../img/trade-in-back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.trade-in .title_h1 {
+  font-size: 48px;
+  margin-bottom: 80px;
+}
+
+.trade-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 65px 0 50px;
+}
+
+.trade-divisions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  color: white;
+  font-size: 18px;
+}
+.trade-divisions .devision_program {
+  margin-right: 40px;
+}
+.trade-divisions .devision_process {
+  margin-right: 40px;
+}
+
+.program-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.program-table__icon {
+  margin-right: 30px;
+}
+
+.process-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.process-table__icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+  margin-right: 30px;
+}
+.process-table__name {
+  margin-top: 8px;
+}
+
+.condition-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  margin-bottom: 19px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.condition-table__icon {
+  margin-right: 30px;
+}
+
+.trade-grade {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+}
+.trade-grade__button {
+  width: 330px;
+  height: 65px;
+  font-size: 24px;
+  background: #f6ae48;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  border: #f6ae48;
+}
+
+@media (max-width: 1430px) {
+  .trade-block {
+    margin: 0 30px 0;
+  }
+}
+@media (max-width: 1430px) {
+  .trade-contant .title_h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1430px) {
+  .program-table__name {
+    font-size: 22px;
+  }
+  .process-table__name {
+    font-size: 22px;
+  }
+  .condition-table__name {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1430px) {
+  .devision_program__descr {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1430px) {
+  .devision_process__descr {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1430px) {
+  .devision_condition__descr {
+    font-size: 16px;
+  }
+}
+@media (max-width: 820px) {
+  .trade-divisions {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (max-width: 820px) {
+  .devision_program {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 820px) {
+  .trade-divisions .devision_program {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 820px) {
+  .trade-divisions .devision_process {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 820px) {
+  .devision_process {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 820px) {
+  .trade-grade__button {
+    width: 270px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .program-table__name {
+    font-size: 16px;
+  }
+  .program-table__icon {
+    width: 40px;
+    height: 30px;
+  }
+  .process-table__name {
+    font-size: 16px;
+  }
+  .process-table__icon {
+    width: 30px;
+    height: 30px;
+  }
+  .condition-table__name {
+    font-size: 16px;
+  }
+  .condition-table__icon {
+    width: 37px;
+    height: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .devision_program__descr {
+    font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .devision_process__descr {
+    font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .devision_condition__descr {
+    font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .trade-contant .title_h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .trade-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 30px 0 50px;
+  }
+}
+@media (max-width: 400px) {
+  .trade-grade__button {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
