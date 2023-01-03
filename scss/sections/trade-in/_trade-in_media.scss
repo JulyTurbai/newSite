@@ -4,11 +4,30 @@
     }
 }
 @media (max-width:$tradeBP1) {
+    .devision_program {
+        &__descr {
+            line-height: 25px;
+        }
+    }
+    .devision_process {
+        &__descr {
+            line-height: 25px;
+        }
+    }
+    .devision_condition {
+        &__descr {
+            line-height: 25px;
+        }
+    }
+
+}
+@media (max-width:$tradeBP1) {
     .trade-contant {
         .title_h1 {
             font-size: 40px;
             margin-bottom: 50px;
         }
+    
     }
 }
 @media (max-width:$tradeBP1) {
@@ -164,4 +183,22 @@
             font-size: 16px;
         }
     }
+}
+@media (max-width:$tradeBP3) {
+    .devision_program {
+        &__descr {
+            line-height: 22px;
+        }
+    }
+    .devision_process {
+        &__descr {
+            line-height: 22px;
+        }
+    }
+    .devision_condition {
+        &__descr {
+            line-height: 22px;
+        }
+    }
+
 }

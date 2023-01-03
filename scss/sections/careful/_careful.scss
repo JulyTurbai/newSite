@@ -1,0 +1,30 @@
+.careful-block {
+    @include flex;
+    padding: 160px 0 220px 0;
+}
+.careful-content {
+    max-width: 595px;
+    margin-right: 50px;
+    position: relative;
+    .title_h2 {
+        font-size: 36px;
+        font-weight: bold;
+        color: black;
+        text-align: start;
+        margin-bottom: 50px;
+
+    }
+    &__back {
+        font-size: 72px;
+        font-weight: bold;
+        color: #cfcfcf;
+        position: absolute;
+        left: -10%;
+        bottom: 85%;
+        z-index: -1;
+    }
+    &__descr {
+        font-size: 24px;
+        line-height: 48px;
+    }
+}
