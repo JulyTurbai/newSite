@@ -1,0 +1,204 @@
+@media (max-width:$tradeBP1) {
+    .trade-block {
+        margin: 0 30px 0;
+    }
+}
+@media (max-width:$tradeBP1) {
+    .devision_program {
+        &__descr {
+            line-height: 25px;
+        }
+    }
+    .devision_process {
+        &__descr {
+            line-height: 25px;
+        }
+    }
+    .devision_condition {
+        &__descr {
+            line-height: 25px;
+        }
+    }
+
+}
+@media (max-width:$tradeBP1) {
+    .trade-contant {
+        .title_h1 {
+            font-size: 40px;
+            margin-bottom: 50px;
+        }
+    
+    }
+}
+@media (max-width:$tradeBP1) {
+    .program-table {
+        &__name {
+            font-size: 22px;
+        }
+    }
+    .process-table {
+        &__name {
+            font-size: 22px;
+        }
+    }
+    .condition-table {
+        &__name {
+            font-size: 22px;
+        }
+    }
+}
+@media (max-width:$tradeBP1) {
+    .devision_program {
+        &__descr {
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width:$tradeBP1) {
+    .devision_process {
+        &__descr {
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width:$tradeBP1) {
+    .devision_condition {
+        &__descr {
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width:$tradeBP2) {
+    .trade-divisions {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+@media (max-width:$tradeBP2) {
+    .devision_program {
+        margin-bottom: 30px;
+        
+    }
+}
+@media (max-width:$tradeBP2) {
+    .trade-divisions {
+        .devision_program {
+            margin-right: 0px;
+        }
+    }
+    
+}
+@media (max-width:$tradeBP2) {
+    .trade-divisions {
+        .devision_process {
+            margin-right: 0px;
+        }
+    }
+    
+}
+@media (max-width:$tradeBP2) {
+    .devision_process {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:$tradeBP2) {
+    .trade-grade {
+        &__button {
+            width: 270px;
+            height: 60px;
+            font-size: 20px;
+        }
+    }
+}
+@media (max-width:$tradeBP3) {
+    .program-table {
+        &__name {
+            font-size: 16px;
+        }
+        &__icon {
+            width: 40px;
+            height: 30px;
+        }
+    }
+    .process-table {
+        &__name {
+            font-size:16px;
+        }
+        &__icon {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .condition-table {
+        &__name {
+            font-size: 16px;
+        }
+        &__icon {
+            width: 37px;
+            height: 30px;
+        }
+    }
+}
+@media (max-width:$tradeBP3) {
+    .devision_program {
+        &__descr {
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width:$tradeBP3) {
+    .devision_process {
+        &__descr {
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width:$tradeBP3) {
+    .devision_condition {
+        &__descr {
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width:$tradeBP3) {
+    .trade-contant {
+        .title_h1 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+    }
+}
+@media (max-width:$tradeBP3) {
+    .trade-container {
+        max-width: 1360px;
+        margin: 0 auto;
+        padding: 30px 0 50px;
+    }
+}
+@media (max-width:$tradeBP3) {
+    .trade-grade {
+        &__button {
+            width: 200px;
+            height: 50px;
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width:$tradeBP3) {
+    .devision_program {
+        &__descr {
+            line-height: 22px;
+        }
+    }
+    .devision_process {
+        &__descr {
+            line-height: 22px;
+        }
+    }
+    .devision_condition {
+        &__descr {
+            line-height: 22px;
+        }
+    }
+
+}
